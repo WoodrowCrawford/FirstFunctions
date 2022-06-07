@@ -43,7 +43,7 @@ namespace HelloWorld
 
         public void PrintStats()
         {
-            Console.WriteLine("")
+            Console.WriteLine("");
         }
         private void TakeDamage(int damageVal)
         {

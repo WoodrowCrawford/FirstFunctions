@@ -71,19 +71,21 @@ namespace HelloWorld
             }
             else if (input == '2')
             {
-                _player1.EquipItem(dagger);
+                player1.EquipItem(dagger);
             }
         }
         //Performed once when the game begins
         public void Start()
         {
-            
+            EquipItems();
+            player1.Attack(player2);
         }
 
         //Repeated until the game ends
         public void Update()
         {
-            
+          
+    
         }
 
         //Performed once when the game ends
